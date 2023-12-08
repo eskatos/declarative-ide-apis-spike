@@ -9,7 +9,7 @@ It relies on a modified Tooling API JAR that can be found in the [lib/](./lib) d
 Run the query on this very build:
 
 ```shell
-./gradlew :build-tree:run
+./gradlew :build-tree:run -DprojectDir=../
 ```
 
 Run the query on another build by passing the `projectDir` system property.
